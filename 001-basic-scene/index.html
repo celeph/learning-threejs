@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test</title>
+</head>
+<body>
+<canvas class="webgl"></canvas>
+<script src="modules/three.min.js"></script>
+<script src="modules/script.js"></script>
+<script>
+  function resizeCanvas() {
+    let canvas = document.querySelector('.webgl');
+    let content = document.querySelector('.cover-heading');
+    if (canvas.width > content.offsetWidth) {
+      canvas.style.width = content.offsetWidth + 'px';
+      canvas.style.height = (content.offsetWidth * (6/8)) + 'px';
+    }
+  }
+  window.addEventListener('resize', function(e) { resizeCanvas(); });
+  window.addEventListener('load', function(e) { resizeCanvas(); });
+</script>
+</body>
+</html>
