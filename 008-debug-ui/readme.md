@@ -1,8 +1,10 @@
 # Three.js Journey
 
 ## Setup
+
 Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+
+Run the following commands:
 
 ``` bash
 # Install dependencies (only the first time)
@@ -15,10 +17,10 @@ npm run dev
 npm run build
 ```
 
+## Bookmarks
 
-https://github.com/automat/controlkit.js
-https://github.com/colejd/guify
-https://github.com/dataarts/dat.gui
-https://github.com/freeman-lab/control-panel
-https://github.com/wearekuva/oui
-
+  - https://github.com/automat/controlkit.js
+  - https://github.com/colejd/guify
+  - https://github.com/dataarts/dat.gui
+  - https://github.com/freeman-lab/control-panel
+  - https://github.com/wearekuva/oui

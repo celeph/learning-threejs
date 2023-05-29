@@ -1,8 +1,10 @@
 # Three.js Journey
 
 ## Setup
+
 Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+
+Run the following commands:
 
 ``` bash
 # Install dependencies (only the first time)
@@ -14,15 +16,6 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
-
-## Notes
-
-Weight: jpg lossy but lighter, png lossless but heavier (see also TinyPNG, basis file format)
-
-Size/dimensions: try to reduce as much as possible, divisble by 2 for mipmaps (power of 2)
-
-Transparency: in png but not jpg
-
 
 ## Bookmarks
 
@@ -36,5 +29,5 @@ Transparency: in png but not jpg
   - https://3dtextures.me/2019/04/16/door-wood-001/
   - https://marmoset.co/posts/basic-theory-of-physically-based-rendering/
   - https://chartogne-taillet.com/en
-  
+
   
